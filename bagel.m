@@ -27,7 +27,7 @@ z = b * sin(2*Beta) + 0.001 * sin(5*Alpha); % 决定垂直位置，带有波动
 figure;
 % 创建 3D 曲面图，不显示边缘 
 surf(x, y, z, 'EdgeColor', 'none'); 
-axis equal;% 所有坐标轴长度相等 
+axis equal; % 所有坐标轴长度相等 
 % 创作题目
 title('Bagel');
 xlabel('Bagel from x angle');
