@@ -98,7 +98,7 @@ y_49 = -g*x_5.^2/(2*(v0*cosd(alpha_49)).^2)+x_5*tand(alpha_49)+h_5;
 figure(2); 
 hold on; 
 xlabel('Throwing Distance x (m)'); %x-axis label
-ylabel('Launch Angle alpha (deg)'); %y-axis label 
+ylabel('Height in vertical direction (m)'); %y-axis label 
 plot(x_5, y_40); 
 plot(x_5, y_41); 
 plot(x_5, y_42); 
