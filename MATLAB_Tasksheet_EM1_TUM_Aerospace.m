@@ -111,9 +111,3 @@ plot(x_5, y_48);
 plot(x_5, y_49); 
 legend('40 deg', '41 deg', '42 deg', '43 deg', '44 deg', '45 deg', '46 deg', '47 deg', '48 deg', '49 deg'); 
 title('Throwing Angles'); 
-
-
-
-
-
-
