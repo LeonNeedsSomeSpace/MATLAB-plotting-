@@ -76,7 +76,7 @@ ylabel('Height in vertical direction (m)'); %y-axis label
 title('Throwing Angles (40 deg - 49 deg)'); 
 colors = lines(length(angles)); 
 
-%Use NaN in order to avoid plotting y < 0 that are below ground
+%Use NaN in order to avoid plotting y < 0 that are below ground level
 for i = 1:length(angles)
     alpha_i = angles(i); 
     y_i = -g * x_5.^2 / (2 * (v0 * cosd(alpha_i))^2) + x_5 * tand(alpha_i) + h_5; 
